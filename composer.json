@@ -1,0 +1,29 @@
+{
+    "name": "easycg/iiko-php",
+    "description": "IIKO PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IikoPhp\\SDK\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rrmode",
+            "email": "me@rrmode.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/simple-cache": "^1.0",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.3",
+        "tuupola/http-factory": "^1.3"
+    }
+}
